@@ -23,6 +23,7 @@ To compute the cross validation metrics for a reply type:
 If you want to re-run LDA with a new number of topics:
 1) cd src
 2) python fit_lda.py --n_topics=[num topics]
+
 **NOTE: latent topic and document proportions will then be output to ./dat/[debate topic]_N=[num topics]/
 You will need to include the --n_topics=[num topics] option to cross val. and ATE estimation
 scripts from now on.
@@ -31,6 +32,7 @@ Finally, if you downloaded the **raw** data as described above, and you want to
 process the data as we have in the paper:
 1) cd src
 2) python preprocess.py
+
 **NOTE: please note that your directory structure needs to match exactly
 what we had -- read the first two paragraphs.
 
