@@ -1,3 +1,5 @@
+Unzip dat.zip, e.g., run unzip ./dat.zip
+
 For the **raw** data from the Internet Argument Corpus which we use in this paper,
 you'll need to visit this link and download it:
 https://nlds.soe.ucsc.edu/iac
